@@ -1,0 +1,12 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnButton</item>
+        <item name="colorSecondary">@color/colorTransBox</item>
+        <item name="colorOnSecondary">@color/colorOnUserInput</item>
+    </style>
+</resources>
+
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:text="Transaction Details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/trans_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorOnUserInput"
+        android:hint="Transaction Name"
+        android:paddingStart="8sp"/>
+
+    <TextView
+        android:id="@+id/trans_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorOnUserInput"
+        android:hint="Transaction Type"
+        android:paddingStart="8sp"/>
+
+    <TextView
+        android:id="@+id/trans_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorOnUserInput"
+        android:hint="Transaction Amount"
+        android:paddingStart="8sp"/>
+
+    <TextView
+        android:id="@+id/trans_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorOnUserInput"
+        android:hint="Transaction Date"
+        android:paddingStart="8sp"/>
+
+    <TextView
+        android:id="@+id/trans_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorOnUserInput"
+        android:hint="Transaction State"
+        android:paddingStart="8sp"/>
+
+    <TextView
+        android:id="@+id/trans_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/colorOnUserInput"
+        android:hint="Transaction Description"
+        android:paddingStart="8sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Trans_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Edit"
+            app:cornerRadius="20dp"/>
+
+        <Button
+            android:id="@+id/Trans_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:textSize="18sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Delete"
+            android:layout_marginEnd="5dp"
+            app:cornerRadius="20dp"/>
+
+        <Button
+            android:id="@+id/Trans_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            android:textSize="18dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="cancel"
+            app:cornerRadius="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorPrimaryVariant">#913bfa</color>
+    <color name="colorOnButton">#000000</color>
+    <color name="colorTransBox">#2C2C2C</color>
+    <color name="colorOnUserInput">#ffffff</color>
+    <color name="colorOnDialog">#2C2C2C</color>
+    <color name="colorForEditDialogDescription">#393939</color>
+</resources>

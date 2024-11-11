@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#8692f7</color>
+    <color name="red">#FF0000</color>
+
+    <color name="colorPrimary">#8692f7</color> <!-- for button background, border and textview -->
+    <color name="colorPrimaryVariant">#3e51f2</color> <!-- for special TextView -->
+    <color name="colorOnButton">#FFFFFF</color> <!-- for button text -->
+    <color name="colorTransBox">#E0E0E0</color>  <!-- for transaction description box -->
+    <color name="colorOnUserInput">#000000</color> <!-- for user input text -->
+    <color name="colorOnDialog">#FFFFFF</color> <!-- read the color name -->
+    <color name="colorForEditDialogDescription">#E0E0E0</color> <!-- read the color name -->
+</resources>

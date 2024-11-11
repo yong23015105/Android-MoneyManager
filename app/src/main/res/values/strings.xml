@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MoneyManager</string>
+    <string name="username">Username will be here</string>
+    <string name="name_description">Transaction Name</string>
+    <string name="amount_description">Transaction Amount</string>
+    <string name="type_description">Transaction Type</string>
+    <string name="date_description">Date（YYYY-MM-DD）</string>
+    <string name="transaction_description">Transaction Description</string>
+    <string name="addTransactionConfirm">Confirm</string>
+    <string name="addTransactionReturn">Return</string>
+    <string name="newTransaction">Add Transaction</string>
+    <string name="ChooseDate">Choose Date</string>
+    <string name="log_Out">Log Out</string>
+    <string name="Welcome_Message">Welcome! %1$s</string>
+    <string name="backToLogin">Back To Login</string>
+
+    <string-array name="transaction_types">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+
+    <string name="hintName">Name</string>
+    <string name="hintType">Type</string>
+    <string name="hintAmount">Amount</string>
+    <string name="hintDate">Date</string>
+    <string name="hintState">State</string>
+    <string name="hintDescription">Description</string>
+</resources>
